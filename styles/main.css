@@ -89,6 +89,15 @@ main {
 }
 
 @media screen and (max-width: 1000px) {  
+  body {
+    display: block;
+  }
+
+  h1 {
+    margin: 30px;
+    text-align: center;
+  }
+  
   main {
     flex-direction: column;
     gap: 50px;
@@ -111,9 +120,5 @@ main {
 
   .right {
     font-size: 11px;
-  }
-
-  .right h2 {
-    text-align: center;
   }
 }
