@@ -112,4 +112,8 @@ main {
   .right {
     font-size: 11px;
   }
+
+  .right h2 {
+    text-align: center;
+  }
 }
