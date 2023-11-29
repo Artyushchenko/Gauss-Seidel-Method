@@ -87,3 +87,29 @@ main {
 #result {
   display: none;
 }
+
+@media screen and (max-width: 1000px) {  
+  main {
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+  .left {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .left .container {
+    width: 200px;
+  }
+
+  nav {
+    gap: 30px;
+  }
+
+  .right {
+    font-size: 11px;
+  }
+}

@@ -1,5 +1,5 @@
 function ZeidelGaussMethod(isMinimum) {  
-    const inputType = isMinimum ? 'min' : 'max';
+    // const inputType = isMinimum ? 'min' : 'max';
     const xInput = parseFloat(document.getElementById('xStart').value);
     const yInput = parseFloat(document.getElementById('yStart').value);
     const hInput = parseFloat(document.getElementById('step').value);
